@@ -1,0 +1,67 @@
+#seating-chart {
+    display: grid;
+    gap: 8px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 700px;
+    height: 420px;
+    border: 6px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgba(255, 255, 192);
+}
+
+.cells {
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    box-shadow: 2px 2px 4px lightblue;
+    border: 1px solid black;
+}
+
+#ratios-dropdowns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: large;
+    margin-left: auto;
+}
+
+#width , #height {
+    border-radius: 8px;
+    width: 40px;
+}
+
+.cells:hover { cursor: pointer; }
+
+#chart-header {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+#lock , #clear-chart , #A , #B , #C{
+    border-radius: 16px;
+    padding: 10px;
+    border: none;
+    transition: transform 1s;
+}
+
+#lock:hover , #clear-chart:hover , #A:hover #B:hover , #C:hover{
+    cursor: pointer;
+    transform: scale(1.008);
+}
+
+
+@media (max-width: 794px) {
+    #seating-chart {
+        min-width: 94vw;
+    }
+}

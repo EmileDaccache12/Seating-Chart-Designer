@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seating Chart Randomizer/home</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="seating-chart.css">
+    <link rel="stylesheet" href="names.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div id="menu">
+        <div id="section">
+            <h4 style="border-right: 3px solid black;"><b>Theme</b>&nbsp;</h4>&nbsp;
+            <div class="themes">
+                <span style="margin-right: 2px;"><b>stale</b></span>
+                <div id="stale"><!-- css --></div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="themes">
+                <span style="margin-right: 2px;"><b>colored</b></span>
+                <div id="colored"><!-- css --></div>
+            </div>
+        </div>
+        <button id="btn"><div id="holder"><b>❯</b></div></b></button>
+    </div>
+
+    <div id="content">
+        <div id="main">
+            <div id="chart-header">
+                <div style="display: flex; gap: 4px;">
+                    <button id="clear-chart" style="background-color: rgb(220, 0, 0);"><b>Clear Chart</b></button>
+                    <button id="lock" style="background-color: rgb(0, 220, 0);"><b>Lock Layout</b></button>
+                </div>
+
+                <div id="ratios-dropdowns">
+                    <select id="width">
+                        <option value="w4">4</option>
+                        <option value="w5">5</option>
+                        <option value="w6">6</option>
+                        <option value="w7">7</option>
+                        <option value="w8">8</option>
+                    </select>
+
+                    <span>×</span>
+
+                    <select id="height">
+                        <option value="h4">4</option>
+                        <option value="h5">5</option>
+                        <option value="h6">6</option>
+                        <option value="h7">7</option>
+                        <option value="h8">8</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+            <div id="seating-chart"><!-- js --></div>
+
+            <div style="display: flex; gap: 30px; margin-top: 5px;">
+                <button id="A" style="background-color: rgb(0, 161, 220);"><b>G10 A</b></button>
+                <button id="B" style="background-color: rgb(29, 0, 220);"><b>G10 B</b></button>
+                <button id="C" style="background-color: rgb(0, 220, 150);"><b>G10 C</b></button>
+            </div>
+        </div>
+
+        <div id="names">
+            <h4 id="alert">not enough cells</h4>
+            <div id="name-header">
+                <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Enter Names:</h1>
+                <div style="display: flex; gap: 4px;">
+                    <button id="randomize" style="background-color: rgb(163, 217, 236);"><b>Randomize</b></button>
+                    <button id="clear" style="background-color: rgb(220, 0, 0);"><b>Clear</b></button>
+                </div>
+            </div>
+
+            <div id="name-list"><!-- js --></div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <script src="chart.js" defer></script>
+    <script src="names.js" defer></script>
+    <script src="randomizer.js" defer></script>
+    <script src="menu.js" defer></script>
+    <script src="sections.js" defer></script>
+</body>
+</html>
