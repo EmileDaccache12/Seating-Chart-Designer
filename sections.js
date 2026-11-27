@@ -5,7 +5,31 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // G10A
     const A = [
-        "null"
+        "Eva Majari",
+        "Jamal Osta",
+        "Mohd Ali AbdelHalim",
+        "Taline Khodor",
+        "Karim Sultani",
+        "Tamer Zebian",
+        "Yasma Shkeir",
+        "Maya Sidker",
+        "Tatiana Saade",
+        "Hassan Wahab",
+        "Dala Shreim",
+        "Dany Issa",
+        "Yasmin Ibrahim",
+        "Elena Afash",
+        "Ali Hashem",
+        "Nour Naamani",
+        "Jad Ayash",
+        "Aline Tabaa",
+        "Layan Mokadem",
+        "Ali Hashoush Ismail",
+        "Jawad Ismail",
+        "Abdel Rahim Hassan",
+        "Mohd Nour Ibrahim",
+        "Rama Yehya",
+        "Chloe Mirza"
     ];
 
     // G10B
