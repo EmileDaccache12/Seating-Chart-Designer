@@ -34,7 +34,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // G10B
     const B = [
-        "null"
+        "Mohd Ismail",
+        "Mira Hasbini",
+        "Rama Osayran",
+        "Hasan El Hasan",
+        "Julia Shamieh",
+        "Khalil Abou Hammoud",
+        "Youssef Safa",
+        "Mohd Rammal",
+        "Yasmin Nassar",
+        "Ahmad El Shami Bilani",
+        "Adam Jammal",
+        "Hajar Rashid",
+        "Abbass Tawbe",
+        "Jamal Shatila",
+        "Anji Abdallah",
+        "Youssef Khayyat",
+        "Sofia Caldwell",
+        "Sandra Shams",
+        "Assil Koubeissi",
+        "Allen El Baassiri",
+        "Yehya Tehfeh",
+        "Adam Kneiber",
+        "Cyrine Hashisho",
+        "Miriam Bechnati",
+        "Karim Zaidan",
+        "Abed Al Joubeily"
     ];
 
     // G10C
@@ -43,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Yorgo Tannous",
         "Andrew Soueidi",
         "Adam Hmedeh",
-        "mohamad El Hakim",
+        "mohammad El Hakim",
         "Hassan Jaber",
         "Hassan Noureddin",
         "Mohammad Sukkarieh",
